@@ -2,13 +2,14 @@ Delicious Treats Website
 This repository contains the code for the Delicious Treats website, a platform showcasing treat-making videos and various audio sounds. The website is designed with a vibrant and appealing user interface. Below is an overview of the structure and features of the code.
 
 Table of Contents
-Introduction
-Features
-Getting Started
-Usage
-Customization
-Contributing
-License
+1.Introduction
+2.Features
+3. Started
+4.Usage
+5.Customization
+6.Contributing
+7.License
+
 Introduction
 The Delicious Treats website is a simple yet engaging platform for sharing treat-making videos and audio sounds related to delicious treats. The website includes a navigation bar, treat-making video section, and an audio section. The code is written in HTML and includes inline CSS for styling.
 
