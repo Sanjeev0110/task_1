@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delicious Treats Website</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      background-image: url('pattern.png'); /* Add a background pattern image */
+    }
+
+    header {
+      background-color: #ff9800; /* Change navbar color to orange */
+      color: #fff;
+      padding: 15px;
+      text-align: center;
+      position: relative;
+    }
+
+    header img {
+      width: 50px; /* Adjust the logo size */
+      height: auto;
+      margin-right: 10px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #ffae42; /* Lighter orange for the navbar */
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 20px;
+      margin: 0 10px;
+      font-weight: bold;
+      position: relative;
+      overflow: hidden;
+    }
+
+    nav a:hover {
+      background-color: #fff;
+      color: #ff9800; /* Change text color on hover */
+      border-radius: 5px;
+    }
+
+    section {
+      margin: 20px;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      position: relative;
+    }
+
+    iframe {
+      width: 100%;
+      height: 315px;
+      margin-bottom: 20px;
+      border: 1px solid #ddd; /* Add a border to the videos */
+      border-radius: 5px;
+    }
+
+    audio {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    /* Apply fadeIn animation to section elements */
+    section {
+      animation: fadeIn 1s ease-out;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar with Orange Background and Logo -->
+  <header>
+    <img src="logo.png" alt="Delicious Treats Logo"> <!-- Add your logo image -->
+    <h1>Delicious Treats</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#videos">Treat Videos</a>
+      <a href="#audio">Audio Sounds</a>
+      <!-- Add more navigation links as needed -->
+    </nav>
+  </header>
+
+  <!-- Delicious Treats Section with Cake Making Reels -->
+  <section id="videos">
+    <h2>Treat Making Videos</h2>
+    <!-- Replace the following YouTube embed links with your actual treat making reel links -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID_1" frameborder="0" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID_2" frameborder="0" allowfullscreen></iframe>
+    <!-- Add more video embeds as needed -->
+  </section>
+
+  <!-- Audio Section for Ringtone or Animal Sounds -->
+  <section id="audio">
+    <h2>Audio Sounds</h2>
+    <!-- Replace the following audio source links with your actual audio file links -->
+    <audio controls>
+      <source src="path_to_audio_file_1.mp3" type="audio/mp3">
+      Your browser does not support the audio element.
+    </audio>
+    <audio controls>
+      <source src="path_to_audio_file_2.mp3" type="audio/mp3">
+      Your browser does not support the audio element.
+    </audio>
+    <!-- Add more audio elements as needed -->
+  </section>
+
+</body>
+</html>
